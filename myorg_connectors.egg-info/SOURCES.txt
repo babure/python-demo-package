@@ -1,0 +1,10 @@
+README.md
+setup.py
+myorg_connectors/__init__.py
+myorg_connectors/elasticsearch_connector.py
+myorg_connectors/mongodb_connector.py
+myorg_connectors.egg-info/PKG-INFO
+myorg_connectors.egg-info/SOURCES.txt
+myorg_connectors.egg-info/dependency_links.txt
+myorg_connectors.egg-info/requires.txt
+myorg_connectors.egg-info/top_level.txt
