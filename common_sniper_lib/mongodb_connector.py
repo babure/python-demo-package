@@ -1,7 +1,7 @@
 # mongodb_connector.py
 
 from pymongo import MongoClient
-from pymongo.errors import ConnectionFailure, ConfigurationError, OperationFailure, AuthenticationError
+from pymongo.errors import ConnectionFailure, ConfigurationError, OperationFailure
 
 class MongoDBConnector:
     def __init__(self, host, port, auth_source, database, username, password):
