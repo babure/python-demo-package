@@ -1,1 +1,1 @@
-common-sniper-lib
+common_sniper_lib

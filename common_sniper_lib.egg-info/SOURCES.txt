@@ -1,9 +1,9 @@
 README.md
 setup.py
-common-sniper-lib/__init__.py
-common-sniper-lib/elasticsearch_connector.py
-common-sniper-lib/mongodb_connector.py
-common-sniper-lib/redis_connector.py
+common_sniper_lib/__init__.py
+common_sniper_lib/elasticsearch_connector.py
+common_sniper_lib/mongodb_connector.py
+common_sniper_lib/redis_connector.py
 common_sniper_lib.egg-info/PKG-INFO
 common_sniper_lib.egg-info/SOURCES.txt
 common_sniper_lib.egg-info/dependency_links.txt
