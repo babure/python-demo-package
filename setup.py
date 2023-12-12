@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='common-sniper-lib',
+    name='common_sniper_lib',
     version='0.1',
     packages=find_packages(),
     install_requires=[
