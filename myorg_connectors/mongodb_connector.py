@@ -14,6 +14,7 @@ class MongoDBConnector:
 
         try:
             self.client = MongoClient(self.host, self.port, username=self.username, password=self.password, authSource=self.auth_source)
+            self.database = self.client[database]  # Access the specific database
 
         except ConnectionFailure as cf:
             # Handle ConnectionFailure
