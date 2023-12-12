@@ -7,7 +7,7 @@ class MongoDBConnector:
     def __init__(self, host, port, auth_source, database, username, password):
         try:
             self.client = MongoClient(host, port, username=username, password=password, authSource=auth_source)
-            self.database = self.client[database]
+            self.db = self.client[database]
         except ConnectionFailure as cf:
             raise ConnectionFailure(f"ConnectionFailure: {cf}")
         except ConfigurationError as ce:
